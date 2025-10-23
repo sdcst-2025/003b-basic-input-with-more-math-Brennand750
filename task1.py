@@ -14,3 +14,11 @@ Enter the # of days in the month: 30
 You earned $0.2 interest. 
 (2 points) 
 """
+principle = input("Please input a principle to find the interest")
+p = 100
+r = 0.025
+d = 30
+interest = p * r * d / 365
+answer = interest
+print(answer)
+print("You earned $0.2 interest")

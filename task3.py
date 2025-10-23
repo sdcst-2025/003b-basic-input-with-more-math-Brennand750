@@ -13,3 +13,17 @@ Enter the fift price: 7.99
 Your subtotal is $63.71 and your taxes total $7.65 for a total of $71.36
 
 """
+prices = input("Please enter the prices of the 5 items")
+fir = 11.99
+sec = 14.76
+thir = 12.99
+four = 15.98
+fifth = 7.99
+subtotal = fir + sec + thir + four + fifth
+taxtotal = subtotal * 0.12
+taxtotal = round(taxtotal,2) 
+total = subtotal + taxtotal
+total = round(total,2)
+print (subtotal)
+print (taxtotal)
+print (total)

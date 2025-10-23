@@ -14,3 +14,9 @@ That is worth $8.00 USD
 How many Canadian Dollars do you have? 1.25
 That is worth $1.00 USD
 """
+canadiandollar = input("please tell me how many canadian dollars I have")
+canadiandollar = 10
+er = 0.8
+answer = canadiandollar * er
+print (answer)
+print ("That is worth $8.0 USD")
